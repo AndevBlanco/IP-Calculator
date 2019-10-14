@@ -7,8 +7,16 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import os
-def openlogo():
-        print("Abriendo loadinterface.py")
-        os.system('loadinterface.py')
-openlogo()
+import os, time
+import subprocess
+
+
+# Iterable con las rutas de los scripts
+scripts_paths = ("loadlogo.py", "loadinterface.py")
+
+# Creamos cada proceso
+procesos = [subprocess.Popen(["python", script]) for script in scripts_paths]
+
+# Esperamos a que todos los subprocesos terminen.
+for proceso in procesos:
+    proceso.wait()
