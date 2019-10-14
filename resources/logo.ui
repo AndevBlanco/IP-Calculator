@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1662</width>
-    <height>899</height>
+    <width>802</width>
+    <height>609</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>-90</x>
+      <y>-30</y>
       <width>1721</width>
       <height>891</height>
      </rect>
@@ -36,7 +36,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1662</width>
+     <width>802</width>
      <height>21</height>
     </rect>
    </property>
@@ -44,7 +44,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="resources/image.qrc"/>
+  <include location="image.qrc"/>
  </resources>
  <connections/>
 </ui>

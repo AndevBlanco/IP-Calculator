@@ -9,6 +9,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import os
 def openlogo():
-        print("fa")
-        os.system('/resources/loadlogo.py')
+        print("Abriendo loadinterface.py")
+        os.system('loadinterface.py')
 openlogo()

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>525</width>
-    <height>334</height>
+    <width>871</width>
+    <height>381</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,40 +17,15 @@
    <string notr="true">background-color:#2b2c2e;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="equal">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>250</y>
-      <width>51</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:#ff9f0a;
-color:#e4e4e5;</string>
-    </property>
-    <property name="text">
-     <string>=</string>
-    </property>
-   </widget>
    <widget class="QTextEdit" name="ip">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>131</width>
+      <x>40</x>
+      <y>50</y>
+      <width>271</width>
       <height>41</height>
      </rect>
     </property>
@@ -75,10 +50,10 @@ color:#e4e4e5;</string>
    <widget class="QPushButton" name="calculate">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>30</y>
-      <width>121</width>
-      <height>41</height>
+      <x>660</x>
+      <y>50</y>
+      <width>171</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -100,9 +75,9 @@ color:#e4e4e5;</string>
    <widget class="QPushButton" name="help">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>250</y>
-      <width>121</width>
+      <x>660</x>
+      <y>130</y>
+      <width>171</width>
       <height>51</height>
      </rect>
     </property>
@@ -122,12 +97,12 @@ color:#e4e4e5;</string>
      <string>Help</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="inp2">
+   <widget class="QTextEdit" name="mask">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>30</y>
-      <width>131</width>
+      <x>330</x>
+      <y>50</y>
+      <width>271</width>
       <height>41</height>
      </rect>
     </property>
@@ -152,8 +127,8 @@ color:#e4e4e5;</string>
    <widget class="QDateTimeEdit" name="time">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>260</y>
+      <x>40</x>
+      <y>290</y>
       <width>194</width>
       <height>31</height>
      </rect>
@@ -165,9 +140,9 @@ color:#e4e4e5;</string>
    <widget class="QTextEdit" name="result">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>80</y>
-      <width>281</width>
+      <x>40</x>
+      <y>110</y>
+      <width>561</width>
       <height>161</height>
      </rect>
     </property>
@@ -186,8 +161,8 @@ color:#e4e4e5;</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
+      <x>40</x>
+      <y>30</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -207,8 +182,8 @@ color:#e4e4e5;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>10</y>
+      <x>330</x>
+      <y>30</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -231,7 +206,7 @@ color:#e4e4e5;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>525</width>
+     <width>871</width>
      <height>21</height>
     </rect>
    </property>
